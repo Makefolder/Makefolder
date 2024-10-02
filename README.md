@@ -1,7 +1,7 @@
 ## Welcome, welcome 👋
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=makefolder&show_icons=true&theme=radical" />
+  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--WXI5d2Ru--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_800/https://media1.tenor.com/images/0c34272909ee2a4db5606a014082312b/tenor.gif%3Fitemid%3D15828752" />
 </div>
 
 ## 👨🏻‍💻 Have experience in
@@ -24,17 +24,15 @@
 <img src="https://img.shields.io/badge/sass-CC6699?&style=for-the-badge&logo=sass&logoColor=white"/>
 </p>
 
-<!--
-**Makefolder/Makefolder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🛜 [My website](https://makefolder.vercel.app)
+- 🔭 I’m currently working on [Olywka Shop](https://olywka-shop.com.ua)
+- 🌱 I’m currently learning Cyber Security at Technical University of Košice
+- 👯 I’m looking to collaborate on anything
+- 📫 How to reach me: artemii.fedotov@tutamail.com or [my linkedin](https://www.linkedin.com/in/artemii-fedotov-77809b260/)
 
-Here are some ideas to get you started:
+## 📈 Github stats
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div align="center">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=makefolder&show_icons=true&theme=radical" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=makefolder&layout=compact&theme=radical" />
+</div>
