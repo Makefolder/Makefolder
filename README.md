@@ -1,6 +1,7 @@
 ## Welcome, welcome 👋
 
 <p align="center">
+<img src="https://img.shields.io/badge/linux-%2300599C.svg?&style=for-the-badge&logo=linux&logoColor=white"/>
 <img src="https://img.shields.io/badge/c99-%2300599C.svg?&style=for-the-badge&logo=c&logoColor=white"/>
 <img src="https://img.shields.io/badge/go-00ADD8?&style=for-the-badge&logo=go&logoColor=white" />
 <img src="https://img.shields.io/badge/rust-d07f4f.svg?&style=for-the-badge&logo=rust&logoColor=white"/>
