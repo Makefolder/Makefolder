@@ -12,13 +12,13 @@ vim.api.nvim_set_keymap('n', '<C-h>', ':split<CR>', { noremap = true, silent = t
 
 -- Telescope
 vim.api.nvim_set_keymap('n', '<leader>t', ':Telescope find_files<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>kt', ':Telescope colorscheme<CR>', { noremap = true, silent = true })
 
 -- Neovim tabs
 vim.api.nvim_set_keymap('n', 'tt', ':tabnew<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', 'tn', ':tabnext<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', 'tb', ':tabprevious<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', 'tc', ':tabclose<CR>', { noremap = true, silent = true })
-
 
 -- Move selected lines
 vim.api.nvim_set_keymap('n', '<C-[>', ':move +1<CR>', { noremap = true, silent = true })

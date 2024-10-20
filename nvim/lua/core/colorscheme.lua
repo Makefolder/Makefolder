@@ -1,31 +1,32 @@
+-- Gruber-darker
+-- vim.cmd("colorscheme gruber-darker")
+
+-- Kanagawa
+vim.cmd("colorscheme kanagawa")
+
 -- Adwaita
 -- vim.g.adwaita_darker = false -- for darker version
 -- vim.g.adwaita_disable_cursorline = true -- to disable cursorline
 -- vim.g.adwaita_transparent = false -- makes the background transparent
 -- vim.cmd([[colorscheme adwaita]])
 
--- Catppuccin
--- vim.cmd("colorscheme catppuccin")
-
-
 -- Rose-pine
-vim.cmd("colorscheme rose-pine-moon")
+-- vim.cmd("colorscheme rose-pine-moon")
 
-
--- Onedark config
+-- Onedark
 require('onedark').setup {
-    style = 'warm'
+    style = 'warmer'
 }
 -- vim.cmd("colorscheme onedark")
 
+-- Nvimgelion
+-- vim.cmd("colorscheme nvimgelion")
 
--- Vim colourscheme
--- vim.cmd("colorscheme minimalist")
+-- Gleam
+-- vim.cmd("colorscheme gleam")
 
-
--- Nightfox
--- vim.cmd("colorscheme dawnfox")
-
+-- Gruvbox
+-- vim.cmd("colorscheme retrobox")
 
 -- Enable syntax highlighting
 vim.cmd("syntax on")

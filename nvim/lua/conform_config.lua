@@ -5,6 +5,12 @@ require("conform").setup({
         javascript = { "prettierd", "prettier", stop_after_first = true },
         typescript = { "prettier" },
         lua = { "stylua" },
+
+        json = { "fixjson" },
+        jsonc = { "fixjson" },
+        yaml = { "yq" },
+        -- xml = { "yq" },
+        -- csv = { "yq" },
     },
     format_on_save = {
         lsp_fallback = true,
