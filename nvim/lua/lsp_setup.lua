@@ -12,15 +12,15 @@ require 'lspconfig'.gopls.setup {}
 require 'lspconfig'.gleam.setup {}
 require 'lspconfig'.ts_ls.setup {}
 require 'lspconfig'.clangd.setup {}
-require 'lspconfig'.zls.setup {
-    cmd = { '/Users/killer-whale/Downloads/zls_macos_aarch64_0_13/zls' },
-    settings = {
-        zls = {
-            -- omit the following line if `zig` is in your PATH
-            zig_exe_path = '/Users/killer-whale/Downloads/zls_macos_aarch64_0_13/zls',
-        }
-    }
-}
+-- require 'lspconfig'.zls.setup {
+--     cmd = { '/Users/killer-whale/Downloads/zls_macos_aarch64_0_13/zls' },
+--     settings = {
+--         zls = {
+--             -- omit the following line if `zig` is in your PATH
+--             zig_exe_path = '/Users/killer-whale/Downloads/zls_macos_aarch64_0_13/zls',
+--         }
+--     }
+-- }
 
 require 'lspconfig'.lua_ls.setup {
     on_init = function(client)

@@ -2,6 +2,7 @@ require("conform").setup({
     formatters_by_ft = {
         gleam = { "gleam" },
         rust = { "rustfmt", lsp_format = "fallback" },
+        -- zig = { "zig fmt" },
         javascript = { "prettierd", "prettier", stop_after_first = true },
         typescript = { "prettier" },
         lua = { "stylua" },

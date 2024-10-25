@@ -11,6 +11,7 @@ require('pckr').add {
             require("conform_config")
         end
     },
+
     -- Add Telescope plugin
     {
         'nvim-telescope/telescope.nvim',
@@ -26,6 +27,9 @@ require('pckr').add {
         requires = { { 'nvim-lua/plenary.nvim' } }
     },
 
+    -- Better comments
+    'Djancyp/better-comments.nvim',
+
     -- Dashboard
     {
         'nvimdev/dashboard-nvim',
@@ -40,20 +44,21 @@ require('pckr').add {
 
     -- LSP
     { 'VonHeikemen/lsp-zero.nvim',                branch = 'v4.x' },
-    { 'neovim/nvim-lspconfig' },
-    { 'hrsh7th/cmp-nvim-lsp' },
-    { 'hrsh7th/nvim-cmp' },
+    'neovim/nvim-lspconfig',
+    'hrsh7th/cmp-nvim-lsp',
+    'hrsh7th/nvim-cmp',
 
+    -- Autoclose
     'm4xshen/autoclose.nvim',
 
     -- Git stuff
-    { 'lewis6991/gitsigns.nvim' },
+    'lewis6991/gitsigns.nvim',
 
     -- Onedark
-    { 'navarasu/onedark.nvim' },
+    'navarasu/onedark.nvim',
 
     -- Rose-pine
-    { "rose-pine/neovim",       as = "rose-pine" },
+    { "rose-pine/neovim", as = "rose-pine" },
 
     -- Adwaita
     'Mofiqul/adwaita.nvim',
@@ -69,4 +74,13 @@ require('pckr').add {
 
     -- Gruber darker
     'blazkowolf/gruber-darker.nvim',
+
+    -- Gruvbox
+    'vim-scripts/gruvbox',
+
+    -- Nightfox
+    'EdenEast/nightfox.nvim',
+
+    -- Bamboo
+    'ribru17/bamboo.nvim',
 }
