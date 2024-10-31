@@ -1,8 +1,8 @@
 ## Welcome, welcome 👋
 
 <div align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=makefolder&show_icons=true&theme=buefy" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=makefolder&layout=compact&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=makefolder&show_icons=true&theme=ayu-mirage" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=makefolder&layout=compact&theme=ayu-mirage" />
 </div>
 
 <br/>
