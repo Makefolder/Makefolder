@@ -1,37 +1,34 @@
 -- Bamboo
-require("bamboo").load()
--- vim.cmd("color bamboo-vulgaris")
+require('bamboo').load()
+-- vim.cmd('colorscheme bamboo')
 
 -- Nightfox
--- vim.cmd("color terafox")
+-- vim.cmd('colorscheme carbonfox')
+-- vim.cmd('colorscheme terafox')
 
--- Gruber-darker
--- vim.cmd("colorscheme gruber-darker")
+-- Monokai
+-- vim.cmd('colorscheme monokai')
 
 -- Kanagawa
--- vim.cmd("colorscheme kanagawa")
+-- vim.cmd('colorscheme kanagawa')
 
 -- Adwaita
--- vim.cmd([[colorscheme adwaita]])
-
--- Rose-pine
-vim.cmd("colorscheme rose-pine-moon")
+-- vim.cmd('colorscheme adwaita')
 
 -- Onedark
 require('onedark').setup {
     style = 'warmer'
 }
--- vim.cmd("colorscheme onedark")
+-- vim.cmd('colorscheme onedark')
 
 -- Nvimgelion
--- vim.cmd("colorscheme nvimgelion")
-
--- Gleam
--- vim.cmd("colorscheme gleam")
+vim.cmd('colorscheme nvimgelion')
 
 -- Gruvbox
--- vim.cmd("colorscheme gruvbox")
--- vim.cmd("colorscheme retrobox")
+-- vim.cmd('colorscheme gruvbox')
+
+-- Luma
+-- vim.cmd('colorscheme luma')
 
 -- Enable syntax highlighting
-vim.cmd("syntax on")
+vim.cmd('syntax on')

@@ -1,5 +1,5 @@
 -- Key mappings
-vim.g.mapleader = " "
+vim.g.mapleader = ' '
 
 -- Open file explorer (Netrw)
 vim.api.nvim_set_keymap('n', '<leader>e', ':Explore<CR>', { noremap = true, silent = true })

@@ -1,5 +1,3 @@
-local lsp = require('lsp-zero')
-
 local function gd_new_tab()
     vim.cmd('tab split')
     vim.lsp.buf.definition()
@@ -24,7 +22,7 @@ local lsp_attach = function(_, bufnr)
     vim.keymap.set('n', '<leader>r', '<cmd>lua vim.lsp.buf.code_action()<cr>', opts)
 end
 
-lsp.extend_lspconfig({
+require('lsp-zero').extend_lspconfig({
     sign_text = true,
     lsp_attach = lsp_attach,
     capabilities = require('cmp_nvim_lsp').default_capabilities(),

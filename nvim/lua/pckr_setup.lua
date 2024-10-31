@@ -1,4 +1,6 @@
-require('pckr').add {
+local pckr = require('pckr')
+
+pckr.add {
     -- Packer manages itself
     'wbthomason/packer.nvim',
 
@@ -8,7 +10,7 @@ require('pckr').add {
     {
         'stevearc/conform.nvim',
         config = function()
-            require("conform_config")
+            require('conform_config')
         end
     },
 
@@ -16,7 +18,7 @@ require('pckr').add {
     {
         'nvim-telescope/telescope.nvim',
         config = function()
-            require "telescope".setup({
+            require 'telescope'.setup({
                 pickers = {
                     colorscheme = {
                         enable_preview = true
@@ -27,14 +29,14 @@ require('pckr').add {
         requires = { { 'nvim-lua/plenary.nvim' } }
     },
 
-    -- Better comments
-    'Djancyp/better-comments.nvim',
+    -- Java LS
+    'mfussenegger/nvim-jdtls',
 
     -- Dashboard
     {
         'nvimdev/dashboard-nvim',
         config = function()
-            require("dashboard").setup()
+            require('dashboard').setup()
         end,
         requires = { { 'nvim-tree/nvim-web-devicons' } }
     },
@@ -43,7 +45,10 @@ require('pckr').add {
     { 'nvim-treesitter/nvim-treesitter',          { run = ':TSUpdate' } },
 
     -- LSP
-    { 'VonHeikemen/lsp-zero.nvim',                branch = 'v4.x' },
+    {
+        'VonHeikemen/lsp-zero.nvim',
+        branch = 'v4.x',
+    },
     'neovim/nvim-lspconfig',
     'hrsh7th/cmp-nvim-lsp',
     'hrsh7th/nvim-cmp',
@@ -57,30 +62,27 @@ require('pckr').add {
     -- Onedark
     'navarasu/onedark.nvim',
 
-    -- Rose-pine
-    { "rose-pine/neovim", as = "rose-pine" },
-
     -- Adwaita
     'Mofiqul/adwaita.nvim',
 
     -- Nvimgelion
     'nyngwang/nvimgelion',
 
-    -- Gleam theme
-    'bgwdotdev/gleam-theme-nvim',
-
     -- Kanagawa
     'rebelot/kanagawa.nvim',
 
-    -- Gruber darker
-    'blazkowolf/gruber-darker.nvim',
-
     -- Gruvbox
-    'vim-scripts/gruvbox',
+    'ellisonleao/gruvbox.nvim',
 
     -- Nightfox
     'EdenEast/nightfox.nvim',
 
     -- Bamboo
     'ribru17/bamboo.nvim',
+
+    -- Monokai
+    'tanvirtin/monokai.nvim',
+
+    -- Luma
+    'bartekjaszczak/luma-nvim',
 }
