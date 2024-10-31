@@ -5,6 +5,8 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=makefolder&layout=compact&theme=radical" />
 </div>
 
+<br/>
+
 - 🛜 [My website](https://makefolder.vercel.app)
 - 🔭 I’m currently working on [Olywka Shop](https://olywka-shop.com.ua)
 - 🌱 I’m currently learning Cyber Security at Technical University of Košice
