@@ -1,8 +1,11 @@
 -- True colors
 vim.opt.termguicolors = true
 
--- Enable line numbers
+-- Enable number line
 vim.opt.number = true
+
+-- Turn off line wrap
+vim.opt.wrap = false
 
 -- Rel. line numbers
 vim.opt.relativenumber = true

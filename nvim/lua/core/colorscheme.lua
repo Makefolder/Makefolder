@@ -15,6 +15,18 @@ require('bamboo').load()
 -- Adwaita
 -- vim.cmd('colorscheme adwaita')
 
+-- Tinted (base16)
+-- -- Access colors present in 256 colorspace
+vim.g.tinted_colorspace = 256
+
+-- Make vim background transparent to work alongside transparent terminal backgrounds
+vim.g.tinted_background_transparent = 1
+
+vim.cmd('colorscheme base16-papercolor-dark')
+-- vim.cmd('colorscheme base16-tender')
+-- vim.cmd('colorscheme base16-horizon-dark')
+-- vim.cmd('colorscheme base16-oxocarbon-dark')
+
 -- Onedark
 require('onedark').setup {
     style = 'warmer'
@@ -22,7 +34,7 @@ require('onedark').setup {
 -- vim.cmd('colorscheme onedark')
 
 -- Nvimgelion
-vim.cmd('colorscheme nvimgelion')
+-- vim.cmd('colorscheme nvimgelion')
 
 -- Gruvbox
 -- vim.cmd('colorscheme gruvbox')

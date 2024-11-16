@@ -13,6 +13,8 @@ vim.api.nvim_set_keymap('n', '<C-h>', ':split<CR>', { noremap = true, silent = t
 -- Telescope
 vim.api.nvim_set_keymap('n', '<leader>t', ':Telescope find_files<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>kt', ':Telescope colorscheme<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>kl', ':set background=light<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>kd', ':set background=dark<CR>', { noremap = true, silent = true })
 
 -- Neovim tabs
 vim.api.nvim_set_keymap('n', 'tt', ':tabnew<CR>', { noremap = true, silent = true })

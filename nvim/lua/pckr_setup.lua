@@ -4,6 +4,7 @@ pckr.add {
     -- Packer manages itself
     'wbthomason/packer.nvim',
 
+    -- Telescope fzf
     { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' },
 
     -- Conform
@@ -30,7 +31,7 @@ pckr.add {
     },
 
     -- Java LS
-    'mfussenegger/nvim-jdtls',
+    -- 'mfussenegger/nvim-jdtls',
 
     -- Dashboard
     {
@@ -56,32 +57,35 @@ pckr.add {
     -- Autoclose
     'm4xshen/autoclose.nvim',
 
-    -- Git stuff
-    'lewis6991/gitsigns.nvim',
-
-    -- Onedark
-    'navarasu/onedark.nvim',
-
     -- Adwaita
     'Mofiqul/adwaita.nvim',
-
-    -- Nvimgelion
-    'nyngwang/nvimgelion',
-
-    -- Kanagawa
-    'rebelot/kanagawa.nvim',
-
-    -- Gruvbox
-    'ellisonleao/gruvbox.nvim',
-
-    -- Nightfox
-    'EdenEast/nightfox.nvim',
 
     -- Bamboo
     'ribru17/bamboo.nvim',
 
+    -- Git stuff
+    'lewis6991/gitsigns.nvim',
+
+    -- Gruvbox
+    'ellisonleao/gruvbox.nvim',
+
+    -- Onedark
+    'navarasu/onedark.nvim',
+
+    -- Tinted-Vim (base16)
+    'tinted-theming/tinted-vim',
+
+    -- Nvimgelion
+    'nyngwang/nvimgelion',
+
+    -- Nightfox
+    'EdenEast/nightfox.nvim',
+
     -- Monokai
     'tanvirtin/monokai.nvim',
+
+    -- Kanagawa
+    'rebelot/kanagawa.nvim',
 
     -- Luma
     'bartekjaszczak/luma-nvim',

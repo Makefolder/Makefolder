@@ -7,26 +7,24 @@ require 'lspconfig'.rust_analyzer.setup {
         }
     }
 }
-
 require 'lspconfig'.gopls.setup {}
 require 'lspconfig'.gleam.setup {}
 require 'lspconfig'.ts_ls.setup {}
 require 'lspconfig'.clangd.setup {}
-require 'lspconfig'.jdtls.setup {
-    cmd = { '/Users/killer-whale/Downloads/jdt-language-server-latest/bin/jdtls' }
-}
-require 'lspconfig'.zls.setup {
-    cmd = { '/Users/killer-whale/Downloads/zls-macos-aarch64-0.13.0/zls' },
-    settings = {
-        zls = {
-            -- omit the following line if `zig` is in your PATH
-            zig_exe_path = '/Users/killer-whale/Downloads/zls-macos-aarch64-0.13.0/zls',
-        }
-    }
-}
+-- require 'lspconfig'.jdtls.setup {
+--     cmd = { '/Users/killer-whale/Downloads/jdt-language-server-latest/bin/jdtls' }
+-- }
+-- require 'lspconfig'.zls.setup {
+--     cmd = { '/Users/killer-whale/Downloads/zls-macos-aarch64-0.13.0/zls' },
+--     settings = {
+--         zls = {
+--             -- omit the following line if `zig` is in your PATH
+--             zig_exe_path = '/Users/killer-whale/Downloads/zls-macos-aarch64-0.13.0/zls',
+--         }
+--     }
+-- }
 
 -- Highlight variables
--- Commented due to poor performance
 -- vim.cmd [[
 --   augroup lsp_document_highlight
 --     autocmd!
