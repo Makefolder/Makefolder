@@ -20,6 +20,18 @@ pckr.add {
         'nvim-telescope/telescope.nvim',
         config = function()
             require 'telescope'.setup({
+                defaults = {
+                    mappings = {
+                        i = { -- Insert mode
+                            ["<Tab>"] = require('telescope.actions').move_selection_next,
+                            ["<S-Tab>"] = require('telescope.actions').move_selection_previous,
+                        },
+                        n = { -- Normal mode
+                            ["<Tab>"] = require('telescope.actions').move_selection_next,
+                            ["<S-Tab>"] = require('telescope.actions').move_selection_previous,
+                        },
+                    },
+                },
                 pickers = {
                     colorscheme = {
                         enable_preview = true
