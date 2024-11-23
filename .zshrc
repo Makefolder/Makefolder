@@ -19,8 +19,8 @@ ZSH_THEME="edvardm"
 export PATH=$PATH:~/go/bin
 
 # my aliases
-alias gcc="gcc-14"
-alias zbr="zig build run"
+# alias gcc="gcc-14"
+# alias zbr="zig build run"
 alias so="source"
 
 # neovims
