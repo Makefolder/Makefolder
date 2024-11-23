@@ -9,8 +9,21 @@ neovim and zshrc configurations.
 
 ## Docker build
 
-Build the image with the following command:
+To run the container use `run.sh` after building
+your docker image and use `start.sh` after that.
+
+Description of scripts
 
 ```bash
-docker build -t makedeb .
+build.sh -- to build image
+run.sh -- to run the image
+start.sh -- to start container with terminal
+delete.sh -- to delete image and container
+install_neovim -- install neovim from source \
+                  downloaded from github repository
 ```
+
+To install neovim use `install_neovim.sh`
+(gets copied into docker container) because `apt install neovim`
+installs outdated version of neovim (v0.7.2). I don't know how to
+fix it yet.
