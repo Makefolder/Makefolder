@@ -23,13 +23,14 @@ RUN apt install -y \
                 python3-pip \
                 python3-dev
 
-RUN curl -fsSL https://bun.sh/install | bash
-
 RUN apt install -y \
     g++ \
     make \
+    gdb \
+    valgrind \
     cmake \
     clangd \
+    cppcheck \
     ninja-build gettext \
     autoconf \
     automake \
