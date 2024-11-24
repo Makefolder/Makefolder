@@ -1,4 +1,8 @@
 local pckr = require('pckr')
+pckr.setup {
+    autoremove  = false, -- Remove unused plugins
+    autoinstall = true,  -- Auto install plugins
+}
 
 pckr.add {
     -- Packer manages itself
@@ -39,11 +43,11 @@ pckr.add {
                 }
             })
         end,
-        requires = { { 'nvim-lua/plenary.nvim' } }
+        requires = { 'nvim-lua/plenary.nvim' }
     },
 
     -- Java LS
-    -- 'mfussenegger/nvim-jdtls',
+    'mfussenegger/nvim-jdtls',
 
     -- Dashboard
     {
@@ -51,54 +55,72 @@ pckr.add {
         config = function()
             require('dashboard').setup()
         end,
-        requires = { { 'nvim-tree/nvim-web-devicons' } }
+        requires = { 'nvim-tree/nvim-web-devicons' }
     },
 
     -- Treesitter
-    { 'nvim-treesitter/nvim-treesitter',          { run = ':TSUpdate' } },
+    {
+        'nvim-treesitter/nvim-treesitter',
+        run = ':TSUpdate',
+        config = function()
+            require('treesitter')
+        end
+    },
 
     -- LSP
     {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v4.x',
+        requires = {
+            'neovim/nvim-lspconfig',
+            'hrsh7th/cmp-nvim-lsp',
+            'hrsh7th/nvim-cmp',
+        },
+        config = function()
+            require('lsp_zero_config')
+            require('lsp_setup')
+            require('cmp_setup')
+        end
     },
-    'neovim/nvim-lspconfig',
-    'hrsh7th/cmp-nvim-lsp',
-    'hrsh7th/nvim-cmp',
-
-    -- Autoclose
-    'm4xshen/autoclose.nvim',
-
-    -- Adwaita
-    'Mofiqul/adwaita.nvim',
-
-    -- Bamboo
-    'ribru17/bamboo.nvim',
 
     -- Git stuff
-    'lewis6991/gitsigns.nvim',
+    {
+        'lewis6991/gitsigns.nvim',
+        config = function()
+            require('gitsigns').setup()
+        end
+    },
 
-    -- Gruvbox
-    'ellisonleao/gruvbox.nvim',
+    -- Autoclose
+    {
+        'm4xshen/autoclose.nvim',
+        config = function()
+            require('autoclose').setup()
+        end
+    },
 
-    -- Onedark
-    'navarasu/onedark.nvim',
-
-    -- Tinted-Vim (base16)
+    -- Themes
+    -- Tinted-Vim (base16 & base24)
     'tinted-theming/tinted-vim',
-
-    -- Nvimgelion
+    'Mofiqul/adwaita.nvim',
+    'ellisonleao/gruvbox.nvim',
+    {
+        'navarasu/onedark.nvim',
+        config = function()
+            require('onedark').setup {
+                style = 'warmer'
+            }
+        end
+    },
     'nyngwang/nvimgelion',
-
-    -- Nightfox
     'EdenEast/nightfox.nvim',
-
-    -- Monokai
     'tanvirtin/monokai.nvim',
-
-    -- Kanagawa
     'rebelot/kanagawa.nvim',
-
-    -- Luma
     'bartekjaszczak/luma-nvim',
+    {
+        'ribru17/bamboo.nvim',
+        config = function()
+            require('bamboo').load()
+        end
+    },
 }
