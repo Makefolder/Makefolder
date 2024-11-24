@@ -40,10 +40,8 @@ RUN apt install -y \
     libssl-dev \
     libffi-dev
 
-RUN apt install -y \
-            golang \
-            gopls
-
+RUN npm install -g typescript-language-server typescript
+RUN curl -fsSL https://bun.sh/install | bash
 RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 RUN git clone https://github.com/Makefolder/Makefolder /root/Makefolder
 

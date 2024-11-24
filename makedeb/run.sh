@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run --name makecontainer -it makedeb
+docker run --env="DISPLAY" --name makecontainer -it makedeb
