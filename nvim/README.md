@@ -17,6 +17,7 @@ This is my neovim setup that includes:
 - Explorer `<leader> e`
 - Telescope (files) `<leader> t`
 - Telescope (themes) `<leader> kt`
+- Suggest fix (if available) `<leader> r`
 - Set dark mode (themes) `<leader> kd`
 - Set light mode (themes) `<leader> kl`
 
