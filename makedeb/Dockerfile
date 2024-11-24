@@ -1,5 +1,4 @@
-# FROM debian:latest
-FROM debian:12.8
+FROM debian:latest
 
 WORKDIR /root
 
