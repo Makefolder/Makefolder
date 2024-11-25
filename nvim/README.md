@@ -24,7 +24,7 @@ This is my neovim setup that includes:
 ### Variables
 
 - Show variable info `<shift> k`
-- Go definition `gd`
+- Go to definition `gd`
 
 ### Move lines
 
