@@ -47,7 +47,7 @@ pckr.add {
     },
 
     -- Java LS
-    'mfussenegger/nvim-jdtls',
+    -- 'mfussenegger/nvim-jdtls',
 
     -- Dashboard
     {
