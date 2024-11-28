@@ -20,6 +20,7 @@ This is my neovim setup that includes:
 - Suggest fix (if available) `<leader> r`
 - Set dark mode (themes) `<leader> kd`
 - Set light mode (themes) `<leader> kl`
+- Copy to system's clipboard `<shift> y`
 
 ### Variables
 

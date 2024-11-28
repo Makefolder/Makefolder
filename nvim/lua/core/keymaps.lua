@@ -1,6 +1,10 @@
 -- Key mappings
 vim.g.mapleader = ' '
 
+-- Copy to the sys buffer
+vim.api.nvim_set_keymap('n', 'Y', '"+y<CR>', { noremap = true, silent = true });
+vim.api.nvim_set_keymap('v', 'Y', '"+y<CR>', { noremap = true, silent = true });
+
 -- Open file explorer (Netrw)
 vim.api.nvim_set_keymap('n', '<leader>e', ':Explore<CR>', { noremap = true, silent = true })
 

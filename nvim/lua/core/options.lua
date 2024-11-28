@@ -30,4 +30,7 @@ vim.opt.hlsearch = false
 vim.opt.scrolloff = 8
 
 vim.opt.updatetime = 50
+
+-- That line almost in the centre
+-- of ye screen
 vim.opt.colorcolumn = '90'

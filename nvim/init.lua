@@ -9,4 +9,5 @@ require('core.options')
 require('core.keymaps')
 
 require('core.colorscheme')
-Set_theme('base16-framer')
+Set_theme('base16-precious-dark-fifteen')
+-- Set_theme('ra-dark')

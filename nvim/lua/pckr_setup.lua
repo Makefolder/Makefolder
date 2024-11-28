@@ -102,6 +102,7 @@ pckr.add {
     -- Themes
     -- Tinted-Vim (base16 & base24)
     'tinted-theming/tinted-vim',
+    'GustavoPrietoP/doom-themes.nvim',
     'Mofiqul/adwaita.nvim',
     'ellisonleao/gruvbox.nvim',
     {
