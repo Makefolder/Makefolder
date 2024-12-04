@@ -9,5 +9,12 @@ require('core.options')
 require('core.keymaps')
 
 require('core.colorscheme')
-Set_theme('base16-precious-dark-fifteen')
--- Set_theme('ra-dark')
+Set_theme('carbonfox')
+
+-- My suggestions
+-- Set_theme('doom-ayu-light')
+-- Set_theme('doom-horizon')
+-- Set_theme('gruvbox')
+-- Set_theme('base16-monokai')
+-- Set_theme('base16-helios')
+-- Set_theme('base16-horizon-terminal-dark')
