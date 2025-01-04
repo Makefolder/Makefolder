@@ -113,8 +113,11 @@ pckr.add {
             }
         end
     },
+    { 'srcery-colors/srcery-vim',                 as = 'srcery' },
+    'arzg/vim-colors-xcode',
     'nyngwang/nvimgelion',
     'EdenEast/nightfox.nvim',
+    'NLKNguyen/papercolor-theme',
     'tanvirtin/monokai.nvim',
     'rebelot/kanagawa.nvim',
     'bartekjaszczak/luma-nvim',
