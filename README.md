@@ -1,14 +1,18 @@
 ## Welcome, welcome 👋
+
 <div align="center">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=makefolder&show_icons=true&theme=ayu-mirage" />
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=makefolder&layout=compact&theme=ayu-mirage" />
 </div>
 <br/>
+
 - 🛜 [My website](https://makefolder.vercel.app)
 - 🔭 I’m currently working at [TheBuidl.io](https://thebuidl.io)
 - 👯 I’m looking to collaborate on anything
 - 📫 How to reach me: [artemii.fedotov@tutamail.com](mailto:artemii.fedotov@tutamail.com) or [my linkedin](https://www.linkedin.com/in/artemii-fedotov/)
+
 ## Tech skills 🛠️
+
 <p align="center">
 <img src="https://img.shields.io/badge/go-00ADD8?&style=for-the-badge&logo=go&logoColor=white" />
 <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white"/>
