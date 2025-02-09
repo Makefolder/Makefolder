@@ -4,6 +4,7 @@
 
 This is my neovim setup that includes:
 
+- Ranger (don't forget to install it on your system)
 - LSP
 - Autocompletion
 - File browser (Telescope)
