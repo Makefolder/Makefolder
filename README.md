@@ -7,6 +7,7 @@
 <br/>
 
 - 🛜 [My website](https://makefolder.vercel.app)
+- ⚙️ [My dotfiles](https://github.com/Makefolder/makefolder)
 - 🔭 I’m currently working at [TheBuidl.io](https://thebuidl.io)
 - 👯 I’m looking to collaborate on anything
 - 📫 How to reach me: [artemii.fedotov@tutamail.com](mailto:artemii.fedotov@tutamail.com) or [my linkedin](https://www.linkedin.com/in/artemii-fedotov/)
