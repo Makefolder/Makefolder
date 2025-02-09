@@ -9,6 +9,18 @@ vim.opt.wrap = false
 
 -- Rel. line numbers
 vim.opt.relativenumber = true
+vim.api.nvim_create_autocmd({ "InsertEnter" }, {
+	pattern = "*",
+	callback = function()
+		vim.opt.relativenumber = false
+	end,
+})
+vim.api.nvim_create_autocmd({ "InsertLeave" }, {
+	pattern = "*",
+	callback = function()
+		vim.opt.relativenumber = true
+	end,
+})
 
 -- Always show the status line
 vim.opt.laststatus = 2
@@ -33,4 +45,4 @@ vim.opt.updatetime = 50
 
 -- That line almost in the centre
 -- of ye screen
-vim.opt.colorcolumn = '90'
+vim.opt.colorcolumn = "90"

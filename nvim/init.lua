@@ -11,14 +11,14 @@ require("core.keymaps")
 require("core.colorscheme")
 
 vim.g.tinted_colorspace = 256
-vim.g.tinted_background_transparent = 0
+vim.g.tinted_background_transparent = 1
 
 -- My theme suggestions
-Set_theme("rose-pine")
+-- Set_theme("rose-pine")
 -- Set_theme("srcery")
--- Set_theme('xcodedarkhc')
--- Set_theme('PaperColor')
+-- Set_theme("xcodedarkhc")
 -- Set_theme("carbonfox")
 
 -- Set_theme("doom-horizon")
 -- Set_theme("base16-helios")
+Set_theme("base16-qualia")

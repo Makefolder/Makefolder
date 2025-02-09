@@ -8,6 +8,14 @@ pckr.add({
 	-- Packer manages itself
 	"wbthomason/packer.nvim",
 
+	-- Ranger
+	{
+		"kelly-lin/ranger.nvim",
+		config = function()
+			require("ranger-nvim").setup({ replace_netrw = true })
+		end,
+	},
+
 	-- Conform
 	{
 		"stevearc/conform.nvim",
