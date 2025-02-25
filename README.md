@@ -18,7 +18,6 @@
 <img src="https://img.shields.io/badge/go-00ADD8?&style=for-the-badge&logo=go&logoColor=white" />
 <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white"/>
 <img src="https://img.shields.io/badge/tailwind-%231572B6.svg?&style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-<img src="https://img.shields.io/badge/docker-4169E1?&style=for-the-badge&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/postgresql-4169E1?&style=for-the-badge&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/linux-%2300599C.svg?&style=for-the-badge&logo=linux&logoColor=white"/>
 <img src="https://img.shields.io/badge/c99-%2300599C.svg?&style=for-the-badge&logo=c&logoColor=white"/>
