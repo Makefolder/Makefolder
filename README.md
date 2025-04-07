@@ -23,9 +23,9 @@
 <img src="https://img.shields.io/badge/c99-%2300599C.svg?&style=for-the-badge&logo=c&logoColor=white"/>
 <img src="https://img.shields.io/badge/react-2C4F7C?&style=for-the-badge&logo=react&logoColor=white"/>
 <img src="https://img.shields.io/badge/sqlite-003B57?&style=for-the-badge&logo=sqlite&logoColor=white"/>
+<img src="https://img.shields.io/badge/react-002f44?&style=for-the-badge&logo=react&logoColor=white"/>
 <img src="https://img.shields.io/badge/next.js-000000?&style=for-the-badge&logo=nextdotjs&logoColor=white"/>
 <img src="https://img.shields.io/badge/bun-000000?&style=for-the-badge&logo=bun&logoColor=white"/>
 <img src="https://img.shields.io/badge/node.js-5FA04E?&style=for-the-badge&logo=node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/svelte-FF3E00?&style=for-the-badge&logo=svelte&logoColor=white"/>
 <img src="https://img.shields.io/badge/rust-d07f4f.svg?&style=for-the-badge&logo=rust&logoColor=white"/>
 </p>
