@@ -12,9 +12,6 @@
   <a href="https://github.com/Makefolder/deployer">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Makefolder&repo=Deployer" />
   </a>
-  <a href="https://github.com/Makefolder/STUDLib">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Makefolder&repo=STUDLib" />
-  </a>
 </div>
 
 <br/>
