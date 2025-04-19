@@ -1,16 +1,23 @@
-## Welcome, welcome 👋
+# Showcase 👁️‍🗨️
 
 <div align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=makefolder&show_icons=true&theme=ayu-mirage" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=makefolder&layout=compact&theme=ayu-mirage" />
-</div>
-<br/>
+  <a href="https://github.com/Makefolder/makefolder">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Makefolder&repo=makefolder" />
+  </a>
+  <a href="https://github.com/Makefolder/deployer">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Makefolder&repo=Deployer" />
+  </a>
+  <a href="https://github.com/Makefolder/STUDLib">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Makefolder&repo=STUDLib" />
+  </a>
 
-- 🛜 [My website](https://makefolder.vercel.app)
-- ⚙️ [My dotfiles](https://github.com/Makefolder/makefolder)
-- 🔭 I’m currently working at [TheBuidl.io](https://thebuidl.io)
-- 👯 I’m looking to collaborate on anything
-- 📫 How to reach me: [artemii.fedotov@tutamail.com](mailto:artemii.fedotov@tutamail.com) or [my linkedin](https://www.linkedin.com/in/artemii-fedotov/)
+  <a href="https://github.com/wrkbnch-io/duels-contract">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=wrkbnch-io&repo=duels-contract" />
+  </a>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Makefolder&layout=compact&hide_progress=true" />
+</div>
+
+<br/>
 
 ## Tech skills 🛠️
 
