@@ -7,9 +7,9 @@
   <a href="https://github.com/Makefolder/deployer">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Makefolder&repo=Deployer" />
   </a>
-  <a href="https://github.com/Makefolder/STUDLib">
+<!--   <a href="https://github.com/Makefolder/STUDLib">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Makefolder&repo=STUDLib" />
-  </a>
+  </a> -->
 
   <a href="https://github.com/wrkbnch-io/duels-contract">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=wrkbnch-io&repo=duels-contract" />
