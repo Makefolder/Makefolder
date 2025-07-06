@@ -3,8 +3,8 @@ vim.cmd(
 )
 
 require("pckr_bootstrap")
-require("pckr_setup")
 
+require("pckr_setup")
 require("core.options")
 require("core.keymaps")
 
@@ -13,12 +13,10 @@ require("core.colorscheme")
 vim.g.tinted_colorspace = 256
 vim.g.tinted_background_transparent = 1
 
--- My theme suggestions
--- Set_theme("rose-pine")
--- Set_theme("srcery")
--- Set_theme("xcodedarkhc")
 -- Set_theme("carbonfox")
+-- Set_theme("doom-dark+")
+Set_theme("PaperColor")
 
--- Set_theme("doom-horizon")
--- Set_theme("base16-helios")
-Set_theme("base16-qualia")
+-- Disabled
+-- Set_theme("base16-tender")
+-- Set_theme("base16-qualia")

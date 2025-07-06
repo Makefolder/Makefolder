@@ -15,7 +15,8 @@ This is my neovim setup that includes:
 
 `<Leader>` is `space`.
 
-- Ranger `<leader> e`
+- Open Ranger `<leader> e`
+- Close Ranger `<esc>`
 - Telescope (files) `<leader> t`
 - Telescope (themes) `<leader> kt`
 - Suggest fix (if available) `<leader> r`

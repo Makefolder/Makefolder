@@ -23,7 +23,6 @@ pckr.add({
 		end,
 	},
 
-
 	-- Conform
 	{
 		"stevearc/conform.nvim",
@@ -96,7 +95,7 @@ pckr.add({
 
 	-- Themes
 	-- Tinted-Vim (base16 & base24)
-	"tinted-theming/tinted-vim",
+	-- "tinted-theming/tinted-vim",
 	"GustavoPrietoP/doom-themes.nvim",
 	"Mofiqul/adwaita.nvim",
 	"ellisonleao/gruvbox.nvim",
@@ -109,6 +108,7 @@ pckr.add({
 	"rebelot/kanagawa.nvim",
 	"bartekjaszczak/luma-nvim",
 	"rose-pine/neovim",
+	"felipeagc/fleet-theme-nvim",
 	{
 		"ribru17/bamboo.nvim",
 		config = function()

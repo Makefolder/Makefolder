@@ -1,6 +1,11 @@
 -- True colors
 vim.opt.termguicolors = true
 
+-- vim.opt.guicursor = {
+-- 	"n-v-c:ver25",
+-- 	"i:hor25",
+-- }
+
 -- Enable number line
 vim.opt.number = true
 
@@ -46,3 +51,9 @@ vim.opt.updatetime = 50
 -- That line almost in the centre
 -- of ye screen
 vim.opt.colorcolumn = "90"
+
+vim.opt.list = true
+vim.opt.listchars = {
+	tab = "> ",
+	trail = "·",
+}

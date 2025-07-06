@@ -14,6 +14,17 @@ lspconfig.gleam.setup({})
 lspconfig.clangd.setup({})
 lspconfig.ts_ls.setup({})
 lspconfig.eslint.setup({})
+lspconfig.astro.setup({})
+
+lspconfig.zls.setup({
+	cmd = { "/Users/killer-whale/Documents/zls-aarch64-macos/zls" },
+	settings = {
+		zls = {
+			-- omit the following line if `zig` is in your PATH
+			-- zig_exe_path = { "/Users/killer-whale/Documents/zls-aarch64-macos/zls" },
+		},
+	},
+})
 
 lspconfig.lua_ls.setup({
 	on_init = function(client)

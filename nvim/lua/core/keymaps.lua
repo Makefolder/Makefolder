@@ -14,6 +14,14 @@ vim.api.nvim_set_keymap("n", "<leader>e", "", {
 	end,
 })
 
+require("ranger-nvim").setup({
+	enable_cmds = false,
+	replace_netrw = false,
+	keybinds = {
+		["<escape>"] = "quit",
+	},
+})
+
 -- Vertical split
 vim.api.nvim_set_keymap("n", "<C-s>", ":vs<CR>", { noremap = true, silent = true })
 

@@ -3,8 +3,8 @@ require("conform").setup({
 		gleam = { "gleam" },
 		rust = { "rustfmt", lsp_format = "fallback" },
 		zig = { "zig fmt" },
-		javascript = { "prettierd", "prettier", stop_after_first = true },
 		typescript = { "prettier", "prettierd", stop_after_first = true },
+		typescriptreact = { "prettier", "prettierd", stop_after_first = true },
 		lua = { "stylua" },
 
 		json = { "fixjson" },
