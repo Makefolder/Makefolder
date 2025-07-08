@@ -19,12 +19,10 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/go-00ADD8?&style=for-the-badge&logo=go&logoColor=white" />
-<img src="https://img.shields.io/badge/typescript-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white"/>
+<!-- <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white"/> -->
 <img src="https://img.shields.io/badge/tailwind-%231572B6.svg?&style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-<img src="https://img.shields.io/badge/postgresql-4169E1?&style=for-the-badge&logo=postgresql&logoColor=white"/>
-<!-- <img src="https://img.shields.io/badge/linux-%2300599C.svg?&style=for-the-badge&logo=linux&logoColor=white"/> -->
 <img src="https://img.shields.io/badge/c99-%2300599C.svg?&style=for-the-badge&logo=c&logoColor=white"/>
-<img src="https://img.shields.io/badge/react-2C4F7C?&style=for-the-badge&logo=react&logoColor=white"/>
+<!-- <img src="https://img.shields.io/badge/react-2C4F7C?&style=for-the-badge&logo=react&logoColor=white"/> -->
 <img src="https://img.shields.io/badge/sqlite-003B57?&style=for-the-badge&logo=sqlite&logoColor=white"/>
 <img src="https://img.shields.io/badge/express-000000?&style=for-the-badge&logo=express&logoColor=white"/>
 <img src="https://img.shields.io/badge/nextjs-000000?&style=for-the-badge&logo=nextdotjs&logoColor=white"/>
@@ -33,4 +31,5 @@
 <img src="https://img.shields.io/badge/git-F05032?&style=for-the-badge&logo=git&logoColor=white"/>
 <img src="https://img.shields.io/badge/hono-E36002?&style=for-the-badge&logo=hono&logoColor=white"/>
 <img src="https://img.shields.io/badge/mongoDB-47A248?&style=for-the-badge&logo=mongoDB&logoColor=white"/>
+<img src="https://img.shields.io/badge/postgresql-4169E1?&style=for-the-badge&logo=postgresql&logoColor=white"/>
 </p>
