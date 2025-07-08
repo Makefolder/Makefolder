@@ -1,3 +1,20 @@
+# Showcase 👁️‍🗨️
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Makefolder&layout=compact&hide_progress=true" />
+  <a href="https://github.com/makefolder/web3-coinflip">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=makefolder&repo=web3-coinflip" />
+  </a>
+  <a href="https://github.com/makefolder/studlib">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=makefolder&repo=studlib" />
+  </a>
+  <a href="https://github.com/makefolder/forge">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=makefolder&repo=forge" />
+  </a>
+</div>
+
+<br/>
+
 ## Tech skills 🛠️
 
 <p align="center">
