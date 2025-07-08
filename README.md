@@ -1,16 +1,15 @@
 # Showcase 👁️‍🗨️
 
 <div align="center">
-  <a href="https://github.com/wrkbnch-io/duels-contract">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=wrkbnch-io&repo=duels-contract" />
-  </a>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Makefolder&layout=compact&hide_progress=true" />
-
-  <a href="https://github.com/Makefolder/makefolder">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Makefolder&repo=makefolder" />
+  <a href="https://github.com/makefolder/web3-coinflip">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=makefolder&repo=web3-coinflip" />
   </a>
-  <a href="https://github.com/Makefolder/deployer">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Makefolder&repo=Deployer" />
+  <a href="https://github.com/makefolder/studlib">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=makefolder&repo=studlib" />
+  </a>
+  <a href="https://github.com/makefolder/forge">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=makefolder&repo=forge" />
   </a>
 </div>
 
